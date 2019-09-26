@@ -79,7 +79,7 @@ void program_interrupt() {
                         savedProgramState = volume;
                         break;
                     case volume:
-                        savedProgramState = traditional; // TODO: time
+                        savedProgramState = time;
                         break;
                     case time:
                         savedProgramState = clean;
